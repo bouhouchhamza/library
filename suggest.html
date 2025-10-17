@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>suggest your favourite book</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+      <header class="header">
+        <div class="logo">
+          <h1><a href="index.html">Mimir</a></h1>
+        </div>
+        <div class="menu">
+          <nav>
+            <ul class="menu-botton">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="All_books.html">All Books</a></li>
+              <li><a href="inside.html">Inside the Book</a></li>
+              <li><a href="suggest.html">Suggest a Book</a></li>
+              <li><a href="about-us.html">About Us</a></li>
+            </ul>
+          </nav>
+          </div>
+          <div class="form-bot">
+          <form  action="log-in.html">
+            <button class="head-bot">Login</button>
+          </form>
+          <form action="register.html">
+            <button class="head-bot">Register</button>
+          </form>
+          </div>
+      </header>
+      </main>
+      <section>
+        <h3 class="prpo">💬 Propose a New Book</h3>
+        <form class="fl" action="#">
+            <div class="pld">
+          <label for="title">📖 Book Title</label>
+            <input type="text" name="title" id="title" placeholder="(required)">
+          </div>
+          <div class="pld">
+          <label for="Author">✍️ Author</label>
+            <input type="text" name="Author" id="Author" placeholder="(required)">
+        </div>
+        <div class="pld">
+            <label for="Genre">🏷️ Genre</label>
+            <input type="text" name="Genre" id="Genre">
+          </div>
+          <div class="pld">
+          <label for="Description">🧾Short Description</label>
+           <textarea name="Description" id="Description" placeholder="(why should we add it?)"></textarea>
+          </div>
+          <div class="pld">
+          <label for="Link">Optional Link</label>
+            <input type="text" name="Link" id="Link" placeholder=" (Amazon, Goodreads, etc.)">
+          </div>
+           <div class="pld">
+          <label for="Email">Your Email</label>
+            <input type="email" name="Email" id="Email" placeholder=" (to contact you if needed)">
+            <button type="submit">Send Book request</button>
+          </div>
+          
+        </form>
+      </section>
+    <footer>
+      <h2>Mimir</h2>
+      <p>Youcode Library Books List</p>
+    </footer>
+    
+</body>
+</html>
